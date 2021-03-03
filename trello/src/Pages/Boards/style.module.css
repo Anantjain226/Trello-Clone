@@ -1,0 +1,95 @@
+.left{
+    float: left;
+    margin: 4%;
+    margin-left: 7%;
+}
+
+.leftTop img{
+    width: 16px;
+    margin-left: 10px;
+}
+
+.leftTop div{
+    display: flex;
+    width: 260px;
+    height: 36px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.leftTop p{
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.leftTop div:hover{
+    background-color: #E0E0E0;
+    cursor: pointer;
+}
+
+.leftMiddle div{
+    display: flex;
+    width: 260px;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+.leftMiddle img{
+    width: 16px;
+    margin-right:5px ;
+}
+
+.leftMiddle p{
+    margin-right: 20px;
+    margin-top: 18px;
+    margin-left: 2px;
+}
+
+.leftMiddle div:nth-child(1) p:nth-child(2){
+    margin-left: 150px;
+    font-size: 25px;
+    margin-top: 2px;
+}
+
+.leftMiddle div:nth-child(2) img{
+    margin-top: 12px;
+}
+
+.leftBottom img{
+    width: 16px;
+    margin-left: 20px;
+}
+
+.leftBottom div{
+    display: flex;
+    width: 260px;
+    height: 36px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.leftBottom p{
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.leftBottom div:hover{
+    background-color: #E0E0E0;
+    cursor: pointer;
+}
+
+.right{
+    margin: 2.2%; 
+    margin-top: 4%;  
+}
+
+.right img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.right div{
+    display: flex
+}
+

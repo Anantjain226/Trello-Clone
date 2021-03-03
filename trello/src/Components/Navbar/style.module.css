@@ -1,0 +1,98 @@
+.navbar{
+    display: flex;
+    background-color: #106BA5;
+}
+.navbar img{
+    width: 20px;
+    padding: 5px;
+    background-color: #5898C0;
+}
+
+.navbar p{
+    color: white;
+    font-weight: 700;
+}
+
+.navbar >div{
+    padding: 5px;
+    margin: 0px 2px
+}
+
+.navbar div:nth-child(3){
+    display: flex;
+    background-color: #5898C0;
+    height: 25px;
+    margin: 5px 2px;
+}
+.navbar div:nth-child(4){
+    display: flex;
+    background-color: #5898C0;
+    height: 25px;
+    margin: 5px 2px;
+}
+
+.navbar div:nth-child(3) p{
+    margin-top: 2px;
+}
+
+.navbar input{
+    background-color: #5898C0;
+    outline: none;
+    border: none;
+    width: 200px;
+}
+
+.navbar input::placeholder{
+    color: white;
+}
+
+.navbar div:nth-child(5){
+    padding: 0px;
+}
+
+.navbar div:nth-child(5) img{
+    padding: 0px;
+    width: 150px;
+    margin-top: 4px;
+}
+
+.navbar div:nth-child(6){
+    padding: 0px;
+    background-color: #106BA5;
+}
+
+.navbar div:nth-child(6) img{
+    padding: 0px;
+    width: 100px;
+    height: 30px;
+    margin: 5px 100px;
+    background-color: #106BA5;
+    opacity: 40%;
+}
+
+.navbar div:nth-child(6) img:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+
+/* MORE */
+
+.more{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+}
+.more > div{
+    display: flex;
+    background-color: white;
+}
+
+.more > div:nth-child(1) p{
+    margin-left: 50px;
+}
+
+.more img{
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+}

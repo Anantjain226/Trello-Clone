@@ -1,0 +1,162 @@
+
+.miniNav{
+    display: flex;
+    background-color: #152748;
+}
+.miniNav p, a{
+    color: white;
+    margin: 12px 10px;
+    font-size: 14px;
+    margin-top: 20px;
+    color: whitesmoke;
+}
+
+.miniNav p{
+    margin-right: 64%;
+    font-weight: 700;
+}
+
+.miniNav img{
+    width: 20px;
+    margin: 12px 15px;
+}
+
+.miniNav button{
+    height: 35px;
+    margin-top: 7px;
+    color: white;
+    background-color: #5DAB4A;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.miniNav2{
+    display: flex;
+    margin-top: 10px;
+}
+.miniNav2 div{
+    display: flex;
+    background-color: white;
+    opacity: 20%;
+    border-radius: 5px;
+    margin: 0px 5px;
+    height: 30px;
+    padding: 5px 10px;
+}
+
+.miniNav2 img{
+    width: 20px;
+}
+
+.miniNav2 div:nth-child(1){
+    padding: 5px;
+}
+
+.miniNav2 div:nth-child(1) img{
+    margin-right: 10px;
+    width: 15px;
+}
+
+.miniNav2 div:nth-child(1) p{
+    margin-right: 10px;
+}
+
+.miniNav2 p{
+    margin-top: 5px;
+}
+
+.Todo{
+    background-color: #D8D8D8	;
+    width: 280px;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+
+.main{
+    /* display: flex; */
+    margin: 2%;
+}
+
+.Todo{
+    float: left;
+}
+.Doing{
+    float: left;
+}
+.Done{
+    float: left;
+}
+
+.Todo img{
+    width: 13px;
+}
+
+.Todo img:hover{
+    cursor: pointer;
+}
+
+.Todo div{
+    display: flex;
+}
+.Todo p{
+    margin-right: 210px;
+    font-weight: 700;
+}
+.Todo input{
+    border: none;
+    height: 20px;
+    width: 240px;
+    background-color: #D8D8D8	;
+    font-size: 16px;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+}
+
+.Todo input:hover{
+    background-color: #BEBEBE;
+    cursor: pointer;
+}
+
+.TextArea TextArea{
+    width: 250px;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.Todo div:nth-child(2){
+    display: block;
+}
+
+.Todo button{
+    padding: 10px;
+    width: 80px;
+    font-weight: 700;
+    color: white;
+    background-color: #5DAB4A;
+    border: none;
+    border-radius: 4px;
+    float: left;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.Todo button:hover{
+    cursor: pointer;
+}
+
+.TextArea img{
+    margin-left: 15px;
+    margin-top: 10px;
+    float: left;
+    width: 20px;
+}
